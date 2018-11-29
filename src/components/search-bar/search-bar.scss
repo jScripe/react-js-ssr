@@ -1,0 +1,11 @@
+.search-bar{
+    margin-top:15px;
+    color:white;
+    &__button{
+        &_side{
+            &_right{
+                float: right;
+            }
+        }
+    }
+}

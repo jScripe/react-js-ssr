@@ -1,0 +1,17 @@
+.results-bar{
+   background-color:rgba(128, 128, 128,0.2);
+   height: 50px;
+   text-align: right;
+   padding:10px 100px 0px;
+   position: relative;
+   margin:0 -50px;
+   
+   &__label{
+       &_side{
+           &_right{
+               position: absolute;
+               right:400px;
+           }
+        }
+   }
+}

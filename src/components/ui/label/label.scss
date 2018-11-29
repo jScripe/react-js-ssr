@@ -1,0 +1,61 @@
+.label{
+    color:white;
+    padding: 5px 20px 5px 0px;
+    font-size: 20px;
+    float:left;
+     &_theme{
+        &_dark{
+            color:black;
+            // width:80%;
+        }
+        &_name-of-film-on-card{
+            color:black;
+            max-width:69%;
+            overflow: hidden;
+        }
+        &_results-bar{
+            color:black;
+            background-color: rgba(0,0,0,0.1);
+            padding:25px 120px;
+
+        }
+        &_secondary{
+            font-size:15px;
+            color:gray;
+        }
+        &_date{
+            border:1px solid black;
+            border-radius:3px;
+            color:black;
+            padding:2px 5px;
+        }
+        &_pink{
+            color:#e11c45;
+        }
+
+    }
+    &_size{
+        &_large{
+            font-size:40px;
+        }
+    }
+    &_display{
+        &_inline-block{
+            display:inline-block;
+            padding:5px;
+            width:90px;
+            margin:20px 0px;
+        }
+        &_block{
+            width:100%;
+        }
+        &_none{}
+        
+    }
+    &_side{
+        &_right{
+            position: absolute;
+            right:350px;
+        }
+    }
+}

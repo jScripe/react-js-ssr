@@ -1,0 +1,32 @@
+.film-card{
+    width:29.3%;
+    margin:2%;
+    float:left;
+    position: relative;
+    cursor: pointer;
+    &__poster-container{
+        max-height:800px;
+        overflow: hidden;
+        @media (max-width: 1048px){
+            max-height:400px;
+        }
+    }
+    &__poster{
+        display: block;
+        width:100%;
+        height:auto;
+        
+    }
+    &__label-container{
+        height:100px;
+        overflow: hidden;
+    }
+    &__label{
+        &_side{
+            &_right{
+                float:right;
+                margin-top:10px;
+            }
+        }
+    } 
+}
