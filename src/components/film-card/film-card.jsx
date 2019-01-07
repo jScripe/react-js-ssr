@@ -12,6 +12,7 @@ class FilmCard extends Component {
         genre: PropTypes.arrayOf(
             PropTypes.string
         ),
+        onClick: PropTypes.func,
         releaseDate: PropTypes.string,
         films: PropTypes.arrayOf(
             PropTypes.oneOfType([

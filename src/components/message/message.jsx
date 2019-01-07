@@ -11,6 +11,7 @@ class Message extends Component {
     }
 
     render() {
+        let run = 5;
         let { children } = this.props;
         return <div className={ cn() }>{ children }</div>;
     }

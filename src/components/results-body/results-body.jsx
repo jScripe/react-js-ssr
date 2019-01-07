@@ -83,14 +83,16 @@ class ResultsBody extends Component {
                     } = film;
                     let address = `/film/${id}`;
                     return (
-                        <FilmCard
-                            key={ id }
-                            imagePath={ posterPath }
-                            title={ title }
-                            genre={ genres }
-                            idOfFilm={ id }
-                            releaseDate={ year }
-                        />
+                        <NavLink to={ address } key={ id }>
+                            <FilmCard
+                                key={ id }
+                                imagePath={ posterPath }
+                                title={ title }
+                                genre={ genres }
+                                idOfFilm={ id }
+                                releaseDate={ year }
+                            />
+                        </NavLink>
                     );
                 }) }
             </div>

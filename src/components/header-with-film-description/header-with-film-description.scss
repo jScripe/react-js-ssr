@@ -1,0 +1,33 @@
+.film-description{
+    background-image: linear-gradient(270deg,rgb(46, 44, 44),rgb(46, 44, 44)),  url(./header-background-image.jpg); 
+    background-blend-mode: multiply;
+    height: 600px;
+    padding:30px 80px;
+    position: relative;
+    &__button-search{
+        position: absolute;
+        right:80px;
+        top:30px;
+    }
+    &__info{
+        display:flex;
+        height:95%;
+        flex-direction: row;
+       
+    }
+    &__poster-container{
+        display: block;
+        width:30%;
+    }
+    &__poster{
+        display: block;
+        width: 300px;
+        height: auto;
+        
+    }
+    &__description{
+        width: 60%;
+        min-height: 150px;
+        
+    }
+}
